@@ -2,9 +2,9 @@ public class PersonApp {
   public static void main(String[] args) {
 
     var person1 = new Person("Juju", "Pacitan");  // Object1
-//    person1.name = "Juju";
-//    person1.address = "Pacitan";
-    // person1.country = "Russia"; // ERROR
+     // person1.name = "Juju";
+     // person1.address = "Pacitan";
+     // person1.country = "Russia"; // ERROR
 
 
     Person person2 = new Person("Gogon", "Bantul"); // Object2
