@@ -9,6 +9,15 @@ class Person {
     address = paramAddress;
   }
 
+  // Constructor Overloading
+  Person(String paramName){
+    // name = paramName;
+    this(paramName, null);
+  }
+
+  Person(){
+  }
+
   // Method 1
   void sayHello(String paramName){
     System.out.println("Hello " + paramName + ", My Name is " + name);
