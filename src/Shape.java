@@ -10,7 +10,7 @@ class Rectangle extends Shape {
     return 4;
   }
 
-  // super keyword or get field from method overriding
+  // super keyword for get field from method overriding
   int getParentCorner(){
     return super.getCorner();
   }
