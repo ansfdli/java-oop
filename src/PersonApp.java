@@ -13,7 +13,8 @@ public class PersonApp {
     Person person4 = new Person(); // object 4 (null)
     Person person5;
     person5 = new Person();
-    person5.name = "Budi"; // object 5
+    person5.name = "Budi"; // object 5 panggil field "name" secara manual
+    Person person6 = new Person("Dedi", "Bogor", "12 Th"); // Object6
 
     // System.out.println(person1.name);
     // System.out.println(person1.address);
@@ -24,5 +25,6 @@ public class PersonApp {
     person3.sayHello("Lili");
     person4.sayHello("Boni"); // object 4 (null)
     person5.sayHello("Joni");
+    person6.sayHello("Heri");
   }
 }

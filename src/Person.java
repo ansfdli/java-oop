@@ -1,6 +1,7 @@
 class Person {
   String name;
   String address;
+  String age;
   final String country = "Indonesia";
 
   // Constructor
@@ -18,8 +19,15 @@ class Person {
   Person(){
   }
 
+  // Constructor, solving variable shadowing with "this" Keyword
+  Person(String name, String address, String age){
+    this.name = name;
+    this.address = address;
+    this.age = age;
+  }
+
   // Method 1
   void sayHello(String paramName){
-    System.out.println("Hello " + paramName + ", My Name is " + name);
+    System.out.println("Hello " + paramName + ", My Name is " + name + " " + this.age);
   }
 }
