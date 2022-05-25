@@ -4,13 +4,13 @@ class Manager extends Employee{
 
   // constructor
   Manager(String name){
-    super(name);
+    super(name); // super constructor ke parent "Employee"
   }
 
 
   // constructor overloading
   Manager(String name, String company){
-    super(name);
+    super(name); // super constructor ke parent "Employee"
     this.company = company;
   }
 

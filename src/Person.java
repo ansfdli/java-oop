@@ -1,8 +1,8 @@
 class Person {
-  String name;
-  String address;
-  String age;
-  final String country = "Indonesia";
+  String name; // field
+  String address; // field
+  String age; // field
+  final String country = "Indonesia"; // field
 
   // Constructor
   Person(String paramName, String paramAddress){
