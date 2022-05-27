@@ -1,4 +1,4 @@
-package java.oop.data;
+package testing.oop.data;
 
 public class Product {
 

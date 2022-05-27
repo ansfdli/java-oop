@@ -1,7 +1,7 @@
-package java.oop.app;
+package testing.oop.app;
 
-import java.oop.data.Product;
-import java.oop.data.Data;
+import testing.oop.data.Product;
+import testing.oop.data.Data;
 //import java.oop.data.*; // import semua package di folder (data) pakai tanda *
 
 public class Application {
