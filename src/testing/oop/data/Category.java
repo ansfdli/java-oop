@@ -6,10 +6,12 @@ public class Category {
 
   private boolean expensive;
 
+  // getter
   public String getId() {
     return id;
   }
 
+  //setter
   public void setId(String id) {
     if(id != null) {
       this.id = id;
